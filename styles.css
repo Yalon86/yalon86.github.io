@@ -1,0 +1,136 @@
+*{
+    
+}
+body{
+    margin:0;  
+}
+
+h1{
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Nunito Sans', sans-serif;   
+}
+
+h2{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;   
+}
+
+p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    float: right;
+    width: 40%;
+    margin-top: 2%;
+    margin-right: 10%;    
+}
+
+nav li{
+    float: right;
+    margin: 0 0 0 3%;
+    list-style-type: none;
+}
+a{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+a:hover{
+    color:#d957d9;
+}
+#title{
+    background-color: #efd9ca;
+    display: inline-block;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    border: 1px solid black;
+}
+
+#first_header{
+    padding:0 0 0 1%;
+    width: 33.3%;
+    display: inline-block;   
+}
+#fonts, #colors, #text_styles, #buttons{
+    border-bottom: 2px solid rgba(165, 159, 159, 0.863) ;
+}
+.container h2,.container-button h2{
+    font-weight: 700;
+}
+.container-button h2{
+    margin-bottom: 3%;
+}
+.container{
+    border: 2px solid rgba(165, 159, 159, 0.863);
+    margin: 2% 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.container-button{
+    border: 2px solid rgba(165, 159, 159, 0.863);
+    margin: 0 10% 2% 10%;
+    padding: 0 1% 5% 1%;
+    
+}
+#cool_blue,#pink,#mint_green,#beige,#gray{
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#cool_blue{
+    background-color: #2d5dcc;
+    color: white;
+}
+#pink{
+    background-color: #d957d9;
+}
+#mint_green{
+    background-color: #4fe0b0;
+}
+#beige{
+    background-color: #efd9ca;
+}
+#gray{
+    background-color: rgba(165, 159, 159, 0.863);
+}
+#source_code_pro, #source_code_pro p{
+    font-family: 'Source Code Pro', monospace;
+}
+#nunito_sans, #nunito_sans p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+#poppins, #poppins p{
+    font-family: 'Poppins', sans-serif;
+}
+#source_code_pro, #nunito_sans, #poppins{
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding: 4px 10px;
+    position: relative;
+    
+    text-align: center;
+    border-radius: 4px;
+    
+}
+.buttons:hover{
+    background-color: blue;
+    color: white;
+}
